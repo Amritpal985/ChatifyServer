@@ -63,7 +63,7 @@ const server = app.listen(
 const io = require("socket.io")(server, {
   pingTimeout: 60000,
   cors: {
-    origin: "https://chatblitz.netlify.app/",
+    origin: "https://chatblitz.netlify.app",
     // credentials: true,
   },
 });
